@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    
+   
+}
+.navbar ul li{
+    margin: 40px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.navbar li{
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.btn{
+    float: right;
+    margin-right: 200px;
+    padding: 8px 36px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #41254661;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px #423247;
+    cursor: pointer;
+    color: #fff;
+}
+.logo a{
+    font-size: 25px;
+    font-weight:bolder;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+.cover{
+    display: flex;
+    background-color: rgb(22, 14, 30);
+}
+.cover-content{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+    margin: 40px;
+    
+}
+.title{
+    text-align: left;
+    padding: 0px 50px;
+}
+.title-content{
+    line-height: 2.3;
+    margin-top: 20px;
+    word-spacing: 10px;
+    word-spacing: 20px;
+    padding: 0px 50px;
+}
+.cover-img{
+    width: 40%;
+    height: 550px;
+    padding: 0px 60px;
+
+}
+.cover-btn{
+    float: left;
+    margin-left: 50px;
+    padding: 15px 50px;
+    border: 2px  ;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 3px #423247;
+    cursor: pointer;
+    font-size: 17px;
+}
+.services h1{
+    text-align: center;
+    padding: 5px 20px;
+    font-size:40px;
+}
+.services p{
+    text-align: center;
+    padding: 20px 10px;
+    font-size:15px;
+    color: blueviolet;
+}
+.services-details-section{
+    display: flex;
+    padding: 0 5% 3% 10%;
+}
+
+.card{
+    width: 30%;
+    padding: 15px;
+    height: auto;
+    margin-right: 5%;
+}
+.card p{
+  margin-top: 15px;
+  text-align: justify;
+    
+}
+.card h2{
+    margin-top: 20px;
+      
+  }
+.card img{
+    width: 100%;
+}
+.service-btn{
+    text-align: center;
+    padding:0px 0px 30px 0px;
+}
+.service-btn a{
+    
+    padding: 15px 50px;
+    border: 2px  ;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 3px #423247;
+    cursor: pointer;
+    font-size: 17px;
+}
+.portfolio-content{
+    display: flex;
+    padding: 20px 20px 40px 10%;
+    margin: 40px;
+}
+.portfolio-content img{
+    width: 100%;
+    margin: 20px;
+}
+.portfolio-info{
+    padding: 20px 50px 40px 50px;
+    margin: 20px;
+
+}
+.portfolio-info h2{
+    font-size: 27px;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.portfolio-info p{
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.portfolio-info img{
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+}
+.work-content{
+    display: flex;
+    padding: 20px 60px 20px 80px;
+    margin: 40px;
+
+}
+.work-content img{
+    
+    padding: 0px 60px 20px 40px;
+    margin: 10px;
+    width: 40%;
+}
+.work-info{
+    padding: 80px 60px 20px 40px;
+}
+.work-info h2{
+    font-size:25px;
+}
+.work-info p{
+    font-size:17px;
+    margin-top: 7px;
+}
+.working{
+    display: flex;
+    width: 50%;
+    margin-top: 60px;
+}
